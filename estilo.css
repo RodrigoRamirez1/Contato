@@ -6,7 +6,7 @@ body {
 
 h1 {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 10px;
     font-size: 30px;
 	color: white;
 }
@@ -26,7 +26,6 @@ form {
 }
 
 label {
-	font-weight: bold;
 	margin-bottom: 10px;
     font-size: 20px;
 	color: white;
@@ -34,7 +33,6 @@ label {
 
 input[type="text"],
 input[type="email"],
-input[type="password"],
 textarea {
 	padding: 10px 50px;
 	margin-bottom: 20px;
@@ -46,7 +44,7 @@ textarea {
 }
 
 button[type="submit"] {
-	background-color: #b51bf1;
+	background-color: #420347;
 	color: #fff;
 	padding: 10px 5px;
 	border-radius: 5px;
@@ -58,7 +56,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-	background-color: #420347;
+	background-color: #b51bf1;
 }
 
 #social-links {
@@ -88,12 +86,4 @@ button[type="submit"]:hover {
 	color: white;
   }
 
-  @media(min-width: 344px){
-	input[type="text"],
-	input[type="email"],
-	input[type="password"],
-	textarea {
-			padding: 10px 30px;
-}
-
-  }
+  
