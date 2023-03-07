@@ -12,15 +12,18 @@ body {
 
 h1 {
     text-align: center;
-    padding-top: 10px;
+	margin-top: 20px;
     font-size: 30px;
 	color: white;
 }
 
 #container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	width: 100%;
 	max-width: 588px;
-	margin: 56px auto 0px;
+	margin: 20px auto 0px;
   
 	padding: 0 24px;
   }
@@ -98,7 +101,7 @@ button[type="submit"]:hover {
 	form {
 		width: 80%;
 	}
-	
+
 
   }
 
